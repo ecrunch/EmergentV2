@@ -1,0 +1,47 @@
+
+/*Masonry Effect Area*/
+#container {
+  margin: 0 auto;
+}
+
+/*Main Masonry Card*/
+.item {
+  background-color:#E6E6E6;
+  width: 265px;
+  height: 265px;
+  margin: 10px;
+  float: left;
+  z-index: 0;
+}
+
+.item-container {
+  margin: 10px;
+}
+
+/*Doubles the Masonry Card Size*/
+.item--W2H2 {
+  width: 550px;
+  height: 550px;
+}
+
+/*Doubles the Masonry Card Width*/
+.item--W2 {
+  width: 550px;
+}
+
+/*Doubles the Masonry Card Height*/
+.item--H2 {
+  height: 550px;
+} 
+
+/*Masonry Card Banner*/
+.item--banner {
+  width: 1120px;
+}
+
+/*Masonry Card Large Banner*/
+.item--banner-large {
+  width: 1120px;
+  height: 550px;
+}
+

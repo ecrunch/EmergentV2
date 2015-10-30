@@ -1,0 +1,32 @@
+<!-- public/views/home.html -->
+<script>
+	//Intializes Masonry
+	var $container = $('#container');
+	$container.masonry({
+          // options
+          itemSelector : '.item',
+          columnWidth : 285,
+          isFitWidth: true,
+        });
+
+</script>
+
+<div id="container">
+	<div class="item item--W2H2">
+	<div class="item-container">
+                <div>Whats Up</div>
+                <div>Testing some stuff out</div>
+	</div>
+        </div>
+	
+	<div ng-repeat="item in items">
+		<div ng-class="item.masonryCardType">
+		<div class="item-container">
+        		<div>{{item.name}}</div>
+        		<div>{{item.type}}</div>
+        		<div>{{item.test}}</div>
+		</div>
+		</div>
+	</div>
+</div>
+
