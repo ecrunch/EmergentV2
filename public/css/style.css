@@ -14,34 +14,154 @@
   z-index: 0;
 }
 
-.item-container {
+.item .item-container {
+  position: relative;
   margin: 10px;
+  width: 245px;
+  height: 245px;
 }
 
-/*Doubles the Masonry Card Size*/
+.item .item-container > img {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+}
+.item .item-container .title {
+  position: absolute;
+  top: 10px;
+  font-size: 30px;
+}
+
+.item .item-container .description {
+  position: absolute;
+  top: 40px;
+  font-size: 20px;
+}
+
+
+/*Doubles the Masonry Card Size----------------------------------------------*/
 .item--W2H2 {
   width: 550px;
   height: 550px;
 }
 
-/*Doubles the Masonry Card Width*/
+.item--W2H2 .item-container {
+  position: relative;
+  margin: 10px;
+  width: 530px;
+  height: 530px;
+}
+
+.item--W2H2 .item-container > img {
+  position: absolute;
+  width: 530px;
+  height: 530px;
+}
+
+.item--W2H2 .item-container .title {
+  position: absolute;
+  font-size: 30px;
+}
+
+.item--W2H2 .item-container .description {
+  position: absolute;
+  top: 40px;
+  font-size: 20px;
+}
+
+/*Doubles the Masonry Card Width----------------------------------------------*/
 .item--W2 {
   width: 550px;
 }
 
-/*Doubles the Masonry Card Height*/
+.item--W2 .item-container {
+  position: relative;
+  margin: 10px;
+  width: 530px;
+  height: 245px;
+}
+
+.item--W2 .item-container > img {
+  position: absolute;
+  height: 245px;
+}
+
+.item--W2  .title {
+  position: absolute;
+  left: 255px;
+  font-size: 30px;
+}
+
+.item--W2 .description {
+  position: absolute;
+  left: 255px;
+  top: 40px;
+  font-size: 20px;
+}
+
+/*Doubles the Masonry Card Height----------------------------------------------*/
 .item--H2 {
   height: 550px;
 } 
 
-/*Masonry Card Banner*/
+.item--H2 .item-container {
+  position: relative;
+  margin: 10px;
+  width: 245px;
+  height: 530px;
+}
+
+.item--H2 .item-container > img {
+  position: absolute;
+  height: 245px;
+}
+
+.item--H2  .title {
+  position: absolute;
+  top: 255px;
+  font-size: 30px;
+}
+
+.item--H2 .description {
+  position: absolute;
+  top: 295px;
+  font-size: 20px;
+}
+
+/*Masonry Card Banner----------------------------------------------*/
 .item--banner {
   width: 1120px;
 }
 
-/*Masonry Card Large Banner*/
+.item--banner .item-container {
+  position: relative;
+  margin: 10px;
+  width: 1100px;
+  height: 245px;
+}
+
+.item--banner .item-container > img {
+  position: absolute;
+  height: 245px;
+}
+
+/*Masonry Card Large Banner----------------------------------------------*/
 .item--banner-large {
   width: 1120px;
   height: 550px;
 }
+
+.item--banner-large .item-container {
+  position: relative;
+  margin: 10px;
+  width: 1100px;
+  height: 530px;
+}
+
+.item--banner-large  .item-container > img {
+  position: absolute;
+  height: 245px;
+}
+
+
 

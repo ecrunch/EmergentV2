@@ -14,17 +14,19 @@
 <div id="container">
 	<div class="item item--W2H2">
 	<div class="item-container">
-                <div>Whats Up</div>
-                <div>Testing some stuff out</div>
+		<div>Whats Up</div>
+        <div>Testing some stuff out</div>
+		<iframe width="530" height="345" src="https://www.youtube.com/embed/GI-U9D7QL9c" frameborder="0" allowfullscreen></iframe>
 	</div>
         </div>
-	
+
 	<div ng-repeat="item in items">
 		<div ng-class="item.masonryCardType">
 		<div class="item-container">
-        		<div>{{item.name}}</div>
-        		<div>{{item.type}}</div>
-        		<div>{{item.test}}</div>
+				
+				<img ng-src="http://i.imgur.com/GJvLwAb.jpg"/>
+				<p class="title">{{item.name}}</p>
+        		<p class="description">{{item.type}}</p>
 		</div>
 		</div>
 	</div>
