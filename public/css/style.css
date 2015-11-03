@@ -1,8 +1,21 @@
 
+@import url(https://fonts.googleapis.com/css?family=Oswald|Josefin+Slab);
+
+
 /*Masonry Effect Area*/
 #container {
   margin: 0 auto;
 }
+
+/* Font initial setup */
+.title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.description {
+  font-family: 'Josephin Slab', serif;
+}
+
 
 /*Main Masonry Card*/
 .item {
@@ -14,6 +27,7 @@
   z-index: 0;
 }
 
+/* Regular Box size ----------------------------------------*/
 .item--box {}
 
 .item--box .item-container {
