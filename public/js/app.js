@@ -1,5 +1,5 @@
 // public/js/app.js
-angular.module('sampleApp', 
+angular.module('resumeApp', 
 	['ngRoute', 
 	'appRoutes', 
 	'MainCtrl', 
