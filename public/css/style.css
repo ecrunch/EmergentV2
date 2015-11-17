@@ -208,5 +208,46 @@
   height: 245px;
 }
 
+/*navigation bar-----------------------------------------------*/
+
+
+nav ul {
+  height: 60px;
+  margin: 10px;
+  padding: 15px;
+  background: #efefef;  
+  list-style: none;
+  position: relative;
+}
+
+nav ul li{
+  padding: 10px;
+  margin: 20px;
+  list-style: none;
+  position: relative;
+  display: inline;
+}
+
+nav ul li a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+nav ul ul {
+  display: inline;
+  margin:0px;
+  padding:0px;
+
+}
+
+nav ul ul li{
+  display: inline;
+  margin:0px;
+  padding-left:10px;
+
+}
+
+
+
 
 

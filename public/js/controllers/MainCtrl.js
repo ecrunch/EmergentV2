@@ -7,6 +7,15 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     $scope.items
 
     /*Filter part of code*/
+    $scope.header = "true";
+
+    $scope.toggleHeader = function(){
+    	if ($scope.header == "true"){
+    		$scope.header = "false";
+    	} else {
+    		$scope.header = "true";
+    	}
+    }
 
 
 });
