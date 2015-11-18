@@ -46,8 +46,8 @@
   position: absolute;
   top: 10px;
   font-size: 30px;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 .item--box .item-container .description {
