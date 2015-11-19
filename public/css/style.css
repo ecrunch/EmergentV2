@@ -1,10 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Oswald|Josefin+Slab|Mrs+Saint+Delafield);
 
-@import url(https://fonts.googleapis.com/css?family=Oswald|Josefin+Slab);
-
+.name {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
 
 /*Masonry Effect Area*/
 #container {
-  margin: 0 auto;
+ width: 1140px;
+ padding-top: 0px;
+ margin: 0 auto;
 }
 
 /* Font initial setup */
@@ -54,8 +59,8 @@
   position: absolute;
   top: 40px;
   font-size: 20px;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 .item--box .item-container:hover .title {
@@ -91,19 +96,19 @@
 .item--W2H2 .item-container .title {
   position: absolute;
   font-size: 30px;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 .item--W2H2 .item-container .description {
   position: absolute;
   top: 40px;
   font-size: 20px;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
-.item--W2H2 .item-container:hover .title {
+/*.item--W2H2 .item-container:hover .title {
   visibility: visible;
   opacity: 1;
 }
@@ -111,7 +116,7 @@
 .item--W2H2 .item-container:hover .description {
   visibility: visible;
   opacity: 1;
-}
+}*/
 
 
 /*Doubles the Masonry Card Width----------------------------------------------*/
@@ -176,6 +181,8 @@
 /*Masonry Card Banner----------------------------------------------*/
 .item--banner {
   width: 1120px;
+  height: 40px;
+  background-color: #ffffff;
 }
 
 .item--banner .item-container {
