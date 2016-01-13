@@ -2,6 +2,4 @@
 angular.module('resumeApp', 
 	['ngRoute', 
 	'appRoutes', 
-	'MainCtrl', 
-	'NerdCtrl', 
-	'NerdService']);
+	'MainCtrl']);

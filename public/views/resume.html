@@ -1,0 +1,40 @@
+<script>
+  //Intializes Masonry
+  var $sideContainer = $('#sideContainer');
+  $sideContainer.masonry({
+          // options
+          itemSelector : '.sideItem',
+          columnWidth : 345,
+          isFitWidth: true,
+        });
+  $('.toggleMasonry').on('click', function(){
+
+      $sideContainer.masonry('destroy');
+
+  });
+
+</script>
+
+<div class="wrapper">
+<div class="sideNav">
+<ul>
+  <li><div class="menuAdder"></div><a href="">Work</a></li>
+  <li><a class="toggleMasonry" href="/">Home</a></li>
+  <li><a href="">Project</a></li>
+  <li><a href="">Code</a></li>
+</ul>  
+  
+</div>
+<div id="sideContainer">
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+  <div class="sideItem"></div>
+</div>
+</div>
+  

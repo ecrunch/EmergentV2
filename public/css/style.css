@@ -5,11 +5,29 @@
   font-size: 40px;
 }
 
+.wrapper {
+  position: relative;  
+}
+
 /*Masonry Effect Area*/
 #container {
  width: 1140px;
  padding-top: 0px;
  margin: 0 auto;
+}
+
+#sideContainer {
+ margin-left: 200px;
+ 
+}
+
+.sideItem {
+  background-color:#E6E6E6;
+  width: 325px;
+  height: 325px;
+  margin: 10px;
+  float: left;
+  z-index: 0;
 }
 
 /* Font initial setup */
@@ -21,6 +39,56 @@
   font-family: 'Josephin Slab', serif;
 }
 
+.sideNav{
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  left:0;
+  top:0;
+  background-color: #808080;
+  margin-right: 10px;
+}
+
+.sideNav > ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.sideNav > ul >li {
+  margin-left:;
+  padding: 5px;
+  border-bottom-style: solid;
+  background-color: #333333;
+}
+
+.sideNav > ul > li:hover {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+.sideNav > ul >li:hover a {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.sideNav > ul >li > a {
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+.menuAdder{
+  background-color: #9999ff;
+  height: 100%;
+}
+
+.sideNav > ul > li:hover .menuAdder {
+  width:100px;
+}
 
 /*Main Masonry Card*/
 .item {

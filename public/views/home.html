@@ -8,7 +8,12 @@
           columnWidth : 285,
           isFitWidth: true,
         });
+	// Reset Masonry
+    $('.toggleMasonry').on('click', function(){
 
+      $container.masonry('destroy');
+
+    });
 </script>
 
 <div id="container">
@@ -38,16 +43,8 @@
 	
 	<div class="item item--box">
 		<div class="item-container">
-			<a href="/blog">
-			<p class="title">Blog</p>
-			</a>
-		</div>
-	</div>
-	
-	<div class="item item--box">
-		<div class="item-container">
-			<a href="/inspiration">
-			<p class="title">Inspiration</p>
+			<a href="/repost">
+			<p class="title">The Repost</p>
 			</a>
 		</div>
 	</div>

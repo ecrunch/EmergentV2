@@ -14,16 +14,12 @@
             templateUrl: 'views/resume.html',
         })
 
-        .when('/blog', {
-            templateUrl: 'views/blog.html',
-        })
-
         .when('/projects', {
             templateUrl: 'views/projects.html',
         })
 
-        .when('/inspiration', {
-            templateUrl: 'views/inspiration.html',
+        .when('/repost', {
+            templateUrl: 'views/repost.html',
         });
 
     $locationProvider.html5Mode(true);
