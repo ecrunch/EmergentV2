@@ -33,10 +33,12 @@
 /* Font initial setup */
 .title {
   font-family: 'Oswald', sans-serif;
+  z-index: 1;
 }
 
 .description {
   font-family: 'Josephin Slab', serif;
+  z-index: 1;
 }
 
 .sideNav{
@@ -110,7 +112,7 @@
   height: 245px;
 }
 
-.item--box .item-container > img {
+.item--box .item-container > a > img {
   position: absolute;
   width: 245px;
   height: 245px;

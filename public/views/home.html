@@ -1,13 +1,14 @@
 <!-- public/views/home.html -->
 <script>
 	//Intializes Masonry
-	var $container = $('#container');
-	$container.masonry({
-          // options
-          itemSelector : '.item',
-          columnWidth : 285,
-          isFitWidth: true,
-        });
+	var $container = $('#container').imagesLoaded( function(){
+		$container.masonry({
+          	// options
+          	itemSelector : '.item',
+          	columnWidth : 285,
+          	isFitWidth: true,
+        	});
+	});
 	// Reset Masonry
     $('.toggleMasonry').on('click', function(){
 
@@ -22,7 +23,7 @@
 		<div class="item-container">
 			<p class="title">Welcome!</p>
 			<p class="description">Hey there Sirs and Madams welcome to my website, it is still under construction so bear with me</p>
-			<img src="http://imgur.com/3nncM6T">
+			<img src="http://i.imgur.com/3nncM6T.png"/>
 		</div>
     </div>
 	
@@ -30,6 +31,7 @@
 		<div class="item-container">
 			<a href="/resume">
 			<p class="title">Resume</p>
+			<img src="http://i.imgur.com/3PkLnfc.png"/>
 			</a>
 		</div>
 	</div>
@@ -38,6 +40,7 @@
 		<div class="item-container">
 			<a href="/projects">
 			<p class="title">Projects</p>
+			<img src="http://i.imgur.com/52NRYdQ.png"/>
 			</a>	
 		</div>
 	</div>
@@ -46,6 +49,7 @@
 		<div class="item-container">
 			<a href="/repost">
 			<!-- <p class="title">The Repost</p> -->
+			<img src="http://i.imgur.com/yKj3iLP.png"/>
 			</a>
 		</div>
 	</div>
